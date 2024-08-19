@@ -9,3 +9,13 @@
 input {
   color-scheme: dark;
 }
+
+.rdp {
+  --rdp-accent-color: #a3e635;
+  --rdp-selected-color: #333333;
+  --rdp-background-color: #a3e635;
+}
+.rdp-button:hover:not([disabled]):not(.rdp-day_selected) {
+  background-color: var(--rdp-background-color);
+  color: var(--rdp-selected-color);
+}
